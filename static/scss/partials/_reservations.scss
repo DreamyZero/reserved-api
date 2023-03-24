@@ -1,0 +1,43 @@
+.reservations {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.reservation {
+    width: calc(33% - 20px);
+    background-color: #444444;
+    color: #fff;
+    padding: 15px;
+
+    &__datetime {
+        letter-spacing: 3px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    &__author {
+        font-size: 28px;
+        margin-bottom: 5px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    &__table {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    &__count {
+        font-size: 15px;
+        color: #f1eaea;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}

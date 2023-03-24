@@ -1,0 +1,26 @@
+.section {
+    padding: 90px 0 40px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: "Playfair Display",serif;
+    }
+
+    &__description {
+        text-align: center;
+        font-weight: 300;
+        font-size: 17px;
+        color: #555;
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,29 @@
+.page {
+    margin-top: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__content {
+        text-align: center;
+        color: #fff;
+    }
+
+    &__title {
+        font-size: 80px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    &__description {
+        font-size: 20px;
+        max-width: 700px;
+    }
+}

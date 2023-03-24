@@ -1,0 +1,45 @@
+.contacts {
+    padding: 80px 0;
+
+    &__wrapper {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__description, &__form {
+        width: 50%;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        color: #989898;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    &__lists {
+        display: flex;
+    }
+
+    &__categories {
+        width: 25%;
+    }
+
+    &__category {
+        margin: 15px 0;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        color: #989898;
+        font-size: 14px;
+        margin: 15px 0;
+    }
+}

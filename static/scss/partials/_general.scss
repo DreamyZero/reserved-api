@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+    &--booking {
+        background-image: url('../images/booking.jpg');
+    }
+
+    &--contacts {
+        background-image: url('../images/contacts.jpg');
+    }
+
+    &--gallery {
+        background-image: url('../images/gallery.jpg');
+    }
+
+    &--reviews {
+        background-image: url('../images/reviews.jpg');
+    }
+
+    &--login {
+        background-image: url('../images/gallery.jpg');
+        margin-top: 0!important;
+
+        .page__wrapper {
+            height: 300px;
+        }
+    }
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}

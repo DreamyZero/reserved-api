@@ -1,0 +1,50 @@
+.tables {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.table {
+    width: calc(25% - 15px);
+
+    &__header {
+        background-color: #ebebeb;
+        padding: 25px 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+
+        &--dark {
+            color: #fff;
+            background-color: #333;
+        }
+    }
+
+    &__content {
+        padding: 25px 0;
+        border: 2px solid #ebebeb;
+        text-align: center;
+    }
+
+    &__number {
+        font-size: 48px;
+    }
+
+    &__description {
+        padding: 25px 0;
+        border: 2px solid #ebebeb;
+    }
+
+    &__category {
+        margin: 10px 0;
+        text-align: center;
+        color: #989898;
+    }
+
+    &__button {
+        margin: 20px auto 10px;
+        max-width: max-content;
+    }
+}

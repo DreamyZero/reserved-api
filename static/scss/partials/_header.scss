@@ -1,0 +1,27 @@
+.header {
+    color: #fff;
+
+    &--dark {
+        color: #000;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__link {
+        line-height: 100px;
+        padding: 0 20px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        transition: color .5s ease;
+        
+        &:hover {
+            color: #d5d5d5;
+        }
+    }
+}
